@@ -5,11 +5,38 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "badunius",
   "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.5",
+    "vuex": "^3.5.1"
+  },
   "devDependencies": {
-    "electron": "^10.1.3"
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/plugin-syntax-optional-chaining": "^7.8.3",
+    "@types/jquery": "^3.3.31",
+    "@types/lodash": "^4.14.149",
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-typescript": "^4.1.2",
+    "@vue/cli-service": "^4.2.3",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.4.2",
+    "electron": "^10.1.3",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^4.0.0",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.0",
+    "sass-variable-parser": "^1.2.2",
+    "typescript": "^3.7.5",
+    "vue-template-compiler": "^2.6.11"
   }
 }
